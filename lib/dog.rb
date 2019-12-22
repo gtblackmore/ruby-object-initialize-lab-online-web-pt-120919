@@ -12,12 +12,8 @@ class Dog
     @name
   end
   
-  def breed=(breed)
+  def breed=(breed="Mutt")
     @breed = breed
-    if empty
-      @breed = mutt
-    end
-      
   end
   
   def breed
